@@ -5,15 +5,19 @@
         method="POST" class="form-group">
         <fieldset class="form-group">
           <label for="name">Name</label>
-          <input id="name" type="text" name="name" class="form-control"/>
+          <input id="name" type="text" name="name" class="form-control"
+          placeholder="Enter name"/>
+          <br/>
           <label for="email">Email address</label>
           <input id="email" type="email" class="form-control" name="_replyto" placeholder="Enter email">
-          <label for="textarea">Example textarea</label>
-          <textarea class="form-control" id="textarea" rows="5"></textarea>
+          <br/>
+          <label for="textarea">Body</label>
+          <textarea class="form-control" id="textarea" rows="5" placeholder="message body"></textarea>
           <input type="hidden" name="_subject" value="Message from website" />
           <input type="hidden" name="_next" value="//nsandersen.com" />
           <input type="text" name="_gotcha" style="display:none" />
-          <button type="submit" class="btn btn-primary">Send</button>
+          <br/>
+          <button type="submit" class="btn btn-info">Send</button>
         </fieldset>
   </form>
 </div>
