@@ -3,17 +3,17 @@
 
   <form action="https://formspree.io/nsa2+web@williams.edu"
         method="POST" class="form-group">
-        <!--<fieldset>
-          <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" name="_replyto" placeholder="Enter email">
-  </fieldset>-->
-
-      <input type="text" name="name" class="form-control">
-      <input type="email" name="_replyto" class="form-control">
-      <input type="textarea" name="body" class="form-control">
-      <input type="submit" value="Send" class="form-control">
-      <input type="hidden" name="_next" value="//nsandersen.com" />
-      <input type="hidden" name="_subject" value="Message from website" />
-      <input type="text" name="_gotcha" style="display:none" />
+        <fieldset class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" class="form-control"/>
+          <label for="email">Email address</label>
+          <input id="email" type="email" class="form-control" name="_replyto" placeholder="Enter email">
+          <label for="textarea">Example textarea</label>
+          <textarea class="form-control" id="textarea" rows="5"></textarea>
+          <input type="hidden" name="_subject" value="Message from website" />
+          <input type="hidden" name="_next" value="//nsandersen.com" />
+          <input type="text" name="_gotcha" style="display:none" />
+          <button type="submit" class="btn btn-primary">Send</button>
+        </fieldset>
   </form>
 </div>
