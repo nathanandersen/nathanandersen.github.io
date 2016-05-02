@@ -37,7 +37,7 @@
 	  </li>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
-	  <li><a href="mailto:nsa2+web@williams.edu">Contact</a></li>
+	  <li><a onclick="loadContact()">Contact</a></li>
 	</ul>
       </div>
     </div>
@@ -55,6 +55,9 @@
     }
     loadBody=function(element) {
     $("#content").load(element);
+    }
+    loadContact = function() {
+    loadBody("contact.html");
     }
   </script>
 
