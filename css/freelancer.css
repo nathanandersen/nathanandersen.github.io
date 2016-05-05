@@ -4,15 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*light color = #18bc9c;*/
+/* dark color = #2c3e50*/
 
-.bg-primary {
-  background-color: #18bc9c;
-}
+/* dark color = #8E44AD;*/
 
-.bg-dark {
-  background-color: #2c3e50;
-  color: white;
-}
 body {
     overflow-x: hidden;
 }
@@ -31,7 +27,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #54B4E6;
 }
 
 h1,
@@ -72,7 +68,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #54B4E6;
 }
 
 hr.star-primary {
@@ -91,7 +87,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #54B4E6;
 }
 
 header .container {
@@ -190,7 +186,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #54B4E6;
 }
 
 section.success a,
@@ -288,7 +284,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #54B4E6;
     background: #fff;
 }
 
@@ -341,7 +337,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #54B4E6;
 }
 
 form .row:first-child .floating-label-form-group {
