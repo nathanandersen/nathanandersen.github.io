@@ -5,9 +5,14 @@
  */
 
 
+.bg-primary {
+  background-color: #18bc9c;
+}
 
-
-
+.bg-dark {
+  background-color: #2c3e50;
+  color: white;
+}
 body {
     overflow-x: hidden;
 }
@@ -129,7 +134,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -143,7 +148,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -175,7 +180,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 section h2 {
@@ -352,7 +357,7 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 25px;
     background-color: #2c3e50;
 }
 
