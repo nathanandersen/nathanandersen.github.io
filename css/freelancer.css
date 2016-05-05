@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
+
+
 body {
     overflow-x: hidden;
 }
@@ -202,6 +206,11 @@ section.success a.active {
         padding-top: 75px;
     }
 }
+/*
+#classes {
+  color: #fff;
+  background: rgba(24,188,156,.9);
+}*/
 
 #portfolio .portfolio-item {
     right: 0;
