@@ -30,6 +30,10 @@ a.active {
     color: #54B4E6;
 }
 
+a.github {
+  color: #fff
+}
+
 h1,
 h2,
 h3,
